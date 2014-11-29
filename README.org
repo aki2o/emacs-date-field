@@ -11,11 +11,11 @@
   
 *** If use package.el
 
-    2014/11/29 Now application
+    2014/11/30 It's available by using melpa.
     
 *** If use el-get.el
 
-    2014/11/29 Now application
+    2014/11/30 It's available. But, master branch only.
     
 *** If use auto-install.el
     
@@ -60,11 +60,6 @@
     - month ... a string/number to init month part.
     - day ... a string/number to init day part.
 
-*** Getting/Setting Value
-
-    This widget value returns/accepts the format like "yyyy/mm/dd" depends on separator.  
-    Also, A year/month/day property returns a number of that by =widget-get=.  
-
 *** Control Widget
 
     In default, =date-field-keymap= is activated on this widget.  
@@ -74,6 +69,11 @@
     - =k= , =p= ... down active column value.
     - =h= , =b= ... select left column.
     - =l= , =f= ... select right column.
+
+*** Getting/Setting Value
+
+    This widget value returns/accepts the format like "yyyy/mm/dd" depends on separator.  
+    Also, A year/month/day property returns a number of that by =widget-get=.  
 
   
 * Tested On

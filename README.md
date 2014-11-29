@@ -8,11 +8,11 @@ This is a date widget in Emacs.
 
 ### If use package.el
 
-2014/11/29 Now application
+2014/11/30 It's available by using melpa.
 
 ### If use el-get.el
 
-2014/11/29 Now application
+2014/11/30 It's available. But, master branch only.
 
 ### If use auto-install.el
 
@@ -53,11 +53,6 @@ Optional properties are here.
 -   month &#x2026; a string/number to init month part.
 -   day &#x2026; a string/number to init day part.
 
-### Getting/Setting Value
-
-This widget value returns/accepts the format like "yyyy/mm/dd" depends on separator.  
-Also, A year/month/day property returns a number of that by `widget-get`.  
-
 ### Control Widget
 
 In default, `date-field-keymap` is activated on this widget.  
@@ -66,6 +61,11 @@ It defines the following keys.
 -   `k` , `p` &#x2026; down active column value.
 -   `h` , `b` &#x2026; select left column.
 -   `l` , `f` &#x2026; select right column.
+
+### Getting/Setting Value
+
+This widget value returns/accepts the format like "yyyy/mm/dd" depends on separator.  
+Also, A year/month/day property returns a number of that by `widget-get`.  
 
 # Tested On
 
